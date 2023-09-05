@@ -11,10 +11,11 @@ const Button = ({
   cartIconBool,
   cartIconPoisition,
   btnText,
+  ml,
 }) => {
   return (
     <div
-      className={`min-mr-18-12  ml-40 ${
+      className={`min-mr-18-12  ${ml} ${
         cartIconPoisition === "end" && `ml-80`
       }`}
     >
