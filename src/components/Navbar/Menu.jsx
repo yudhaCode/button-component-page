@@ -21,7 +21,7 @@ const Menu = () => {
           </a>
         ))}
 
-        <div className="sm:hidden flex flex-1 items-end flex-col absolute -top-8 right-0">
+        <div className="sm:hidden flex flex-1 items-end flex-col absolute -top-8 right-0 cursor-pointer">
           <img
             src={toggle ? close : menu}
             alt="menu"
