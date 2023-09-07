@@ -11,6 +11,8 @@ const buttonStyles = {
     ...buttonCommonProps,
     titleText: "<Button />",
     btnBackground: "bg-default",
+    hoverState: true,
+    hoverProp: "hover:bg-button-hover",
   },
   buttonDefaultHoverFocus: {
     ...buttonCommonProps,
@@ -47,6 +49,7 @@ const buttonStyles = {
     btnBackground: "bg-default",
     btnTextColor: "text-nav-default",
     fontWeight: "font-normal",
+    disabled: true,
   },
   buttonDisabledVariant: {
     ...buttonCommonProps,
